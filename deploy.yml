@@ -23,7 +23,7 @@ kind: Service
 metadata:
   name: mobilebankingservice
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: bank
   ports:
